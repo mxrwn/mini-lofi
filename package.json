@@ -1,0 +1,29 @@
+{
+  "build": {
+    "productName": "Lofi",
+    "appId": "com.mx.miniLofi",
+    "mac": {
+      "icon": "./icon.png"
+    },
+    "win": {
+      "icon": "./icon.png"
+    },
+    "linux": {
+      "icon": "./icon.png"
+    }
+  },
+  "name": "lofi-viewer",
+  "version": "1.0.0",
+  "description": "A simple Picture in Picture with Lofi Music",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "mx.",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.0",
+    "electron-builder": "^23.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
